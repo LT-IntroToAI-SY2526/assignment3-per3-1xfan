@@ -1,11 +1,7 @@
 from typing import List
-
-
 def match(pattern: List[str], source: List[str]) -> List[str]:
     """Attempt to match pattern to source
-
     % matches a sequence of zero or more words and _ matches any single word
-
     Args:
         pattern - a pattern using to % and/or _ to extract words from the source
         source - a phrase represented as a list of words (strings)
